@@ -1,0 +1,11 @@
+
+#compile gcc -o keypad.c
+
+#run
+sudo ./a.out /dev/input/event2
+
+#/dev/input/event2 is my laptop keyboard input. 
+
+
+
+#when press any key and release this key you get pressed time and key info on your console output.
