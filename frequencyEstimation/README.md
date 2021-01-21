@@ -41,7 +41,7 @@ Tek tip örnekleme olduğunu varsayarsak ve ardışık olarak seçtiğimiz 3 ör
 <img src="docs/uniformSample1.png"
      alt="uniformSample1"
      style="float: left; margin-right: 10px;" /> <br/><br/>
-     <br/><br/><br/>
+     <br/>
      y0 ile y2 toplayalım.
 
 <img src="docs/uniformSample2.png"
@@ -56,15 +56,15 @@ Tek tip örnekleme olduğunu varsayarsak ve ardışık olarak seçtiğimiz 3 ör
 <img src="docs/uniformSample4.png"
      alt="uniformSample4"
      style="float: left; margin-right: 5px;" /> <br/><br/>
-     <br/><br/><br/>
+     <br/>
 
 Octave programında 3 örnek yöntemi kullanılarak frekans tahmini 500-4000Hz arasında değişen 16000 örnekleme frekansı ile hazırlanmış bir sinusoidal sinyalin frekans tahmin grafiği aşağıdaki gibidir. 
 
 <img src="docs/output1.png"
      alt="output1"
-     style="float: left; margin-right: 5px;" /> <br/><br/><br/>
+     style="float: left; margin-right: 5px;" /> <br/><br/>
 
-<br/><br/><br/><br/>
+<br/>
 
 
 > Zaman-domaininde 4 örnek ile frekans tahmini <br/>
@@ -75,7 +75,6 @@ Tek tip örnekleme olduğunu varsayarsak ve ardışık olarak seçtiğimiz 4 ör
 <img src="docs/uniformSample5.png"
      alt="uniformSample5"
      style="float: left; margin-right: 5px;" /> <br/><br/>
-<br/><br/><br/>
 <br/><br/><br/>
 
 (y3 - y0) ve (y2 - y1) karşılıklı olarak örnekleri birbirinden çıkarttıktan sonra (y3 - y0)/(y2 - y1) ile;<br/>
