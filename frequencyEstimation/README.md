@@ -78,7 +78,7 @@ Tek tip örnekleme olduğunu varsayarsak ve ardışık olarak seçtiğimiz 4 ör
 <br/><br/><br/>
 <br/><br/><br/>
 
-(y3 - y0) ve (y2 - y1) karşılıklı olarak örnekleri birbirinden çıkarttıktan sonra (y3 - y0)/(y2 - y1) ile;
+(y3 - y0) ve (y2 - y1) karşılıklı olarak örnekleri birbirinden çıkarttıktan sonra (y3 - y0)/(y2 - y1) ile;<br/>
 <img src="docs/uniformSample6.png"
      alt="uniformSample6"
      style="float: left; margin-right: 5px;" /> <br/><br/>
@@ -88,8 +88,7 @@ Tek tip örnekleme olduğunu varsayarsak ve ardışık olarak seçtiğimiz 4 ör
 <img src="docs/uniformSample7.png"
      alt="uniformSample7"
      style="float: left; margin-right: 5px;" /> <br/><br/>
-<br/><br/><br/>
-<br/><br/><br/>
+<br/>
 
 4 örnek ile frekans tahmini yönteminde 500-4000Hz aralığında değişen 16000 örnekleme frekanslı sinyalin belli bir frame aralığında frekans tahmini uygulanmasının sonucu: 
  <img src="docs/output2.png"
