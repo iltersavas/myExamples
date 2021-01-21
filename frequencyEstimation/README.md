@@ -30,11 +30,6 @@ F → sinusoidal sinyalin frekansı.
      style="float: left; margin-right: 10px;" /> <br/><br/>
      <br/><br/>
      <br/><br/>
-     <br/><br/>
-     <br/><br/>
-     <br/><br/>
-     <br/><br/>
-     <br/><br/>
 
 
 > Zaman-domaininde 3 örnek ile frekans tahmini <br/>
@@ -45,22 +40,22 @@ Tek tip örnekleme olduğunu varsayarsak ve ardışık olarak seçtiğimiz 3 ör
 <br/>
 <img src="docs/uniformSample1.png"
      alt="uniformSample1"
-     style="float: left; margin-right: 10px;" /> <br/><br/><br/><br/>
+     style="float: left; margin-right: 10px;" /> <br/><br/>
      <br/><br/><br/>
      y0 ile y2 toplayalım.
 
 <img src="docs/uniformSample2.png"
      alt="uniformSample2"
-     style="float: left; margin-right: 10px;" /> <br/><br/><br/>
+     style="float: left; margin-right: 10px;" /> <br/>
      <img src="docs/uniformSample3.png"
      alt="uniformSample3"
-     style="float: left; margin-right: 10px;" /> <br/><br/><br/>
+     style="float: left; margin-right: 10px;" /> <br/><br/>
 
      0 = 2*pi*f/fs
 
 <img src="docs/uniformSample4.png"
      alt="uniformSample4"
-     style="float: left; margin-right: 5px;" /> <br/><br/><br/>
+     style="float: left; margin-right: 5px;" /> <br/><br/>
      <br/><br/><br/>
 
 Octave programında 3 örnek yöntemi kullanılarak frekans tahmini 500-4000Hz arasında değişen 16000 örnekleme frekansı ile hazırlanmış bir sinusoidal sinyalin frekans tahmin grafiği aşağıdaki gibidir. 
@@ -69,7 +64,7 @@ Octave programında 3 örnek yöntemi kullanılarak frekans tahmini 500-4000Hz a
      alt="output1"
      style="float: left; margin-right: 5px;" /> <br/><br/><br/>
 
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/>
 
 
 > Zaman-domaininde 4 örnek ile frekans tahmini <br/>
@@ -79,26 +74,24 @@ Clay Turner, gerçek değerli bir sünusoidal sinyalin tahmininde periyodik olar
 Tek tip örnekleme olduğunu varsayarsak ve ardışık olarak seçtiğimiz 4 örnek ile y0, y1, y2, y3
 <img src="docs/uniformSample5.png"
      alt="uniformSample5"
-     style="float: left; margin-right: 5px;" /> <br/><br/><br/>
+     style="float: left; margin-right: 5px;" /> <br/><br/>
 <br/><br/><br/>
 <br/><br/><br/>
 
 (y3 - y0) ve (y2 - y1) karşılıklı olarak örnekleri birbirinden çıkarttıktan sonra (y3 - y0)/(y2 - y1) ile;
 <img src="docs/uniformSample6.png"
      alt="uniformSample6"
-     style="float: left; margin-right: 5px;" /> <br/><br/><br/>
+     style="float: left; margin-right: 5px;" /> <br/><br/>
     
     0 = 2*pi*f/fs
 
 <img src="docs/uniformSample7.png"
      alt="uniformSample7"
-     style="float: left; margin-right: 5px;" /> <br/><br/><br/>
+     style="float: left; margin-right: 5px;" /> <br/><br/>
 <br/><br/><br/>
 <br/><br/><br/>
 
 4 örnek ile frekans tahmini yönteminde 500-4000Hz aralığında değişen 16000 örnekleme frekanslı sinyalin belli bir frame aralığında frekans tahmini uygulanmasının sonucu: 
  <img src="docs/output2.png"
      alt="output2"
-     style="float: left; margin-right: 5px;" /> <br/><br/><br/>
-<br/><br/><br/>
-<br/><br/><br/>
+     style="float: left; margin-right: 5px;" /> <br/><br/>
